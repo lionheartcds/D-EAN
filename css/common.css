@@ -1,0 +1,96 @@
+/*共用*/
+html,body{margin:0 0;padding:0 0;-ms-overflow-style: none;font-size:16px;color:#fff;background-image:linear-gradient(180deg, #0E0E0E 100%, #000000 100%);letter-spacing:0.25em;}
+img{width:100%;height:auto;}
+input,select,a,button{outline:none;text-decoration:none;border:none;}
+.outline{width:100%;height:auto;float:left;}
+.outblock{width:80%;height:auto;display:block;margin:0 auto;}
+.fl{float: left;}
+.fr{float:right;}
+/*共用*/
+
+
+/*Header*/
+.outline.header{background-color:#0E0E0E;height:40px;}
+.header-logo{width:auto;height:auto;float:left;margin:5.5px 0;}
+.header-menu{width:auto;height:auto;float:right;}
+.header-menu>a{width:80px;height:40px;float:left;margin-right:82px;text-align:center;}
+.header-menu>a>span{width:100%;line-height:40px;font-size:16px;color:rgba(255,255,255,0.7);display:block;transition:color 0.3s;}
+.header-menu>a:nth-last-child(1){margin-right:0px;}
+.header-menu>a>span:hover{color:white;}
+.header-menu>a>span.active{color:white;}
+.header-decoration{width:12px;height:2px;display:block;margin:0 auto;margin-top:-7px;display:none;}
+.header-decoration>div{width:2px;height:2px;float:left;border-radius:10px;background-color:white;margin:0 1px;}
+/*Header*/
+
+/*banner*/
+.banner-bg{width:100%;height:calc(100vh - 40px);float:left;background-image:url(../img/banner-bg.png);background-size:cover;background-position:center;background-repeat:no-repeat;}
+.banner-main-block{width:auto;height:auto;float:left;position: relative;transform:translateY(40%);padding-left:50px;}
+.banner-main-block>div.title{width:100%;height:auto;float:left;font-size:30px;color:white;margin-bottom:2px;letter-spacing:0.1em;line-height:34.5px;}
+.banner-main-block>div.main{width:100%;height:auto;float:left;font-size:200px;color:white;margin-bottom:10px;letter-spacing:0em;line-height:229.98px;margin-left:-13px}
+.banner-main-block>div.sub{width:100%;height:auto;float:left;font-size:20px;color:rgba(255,255,255,0.7);margin-bottom:10px;letter-spacing:0.1em;line-height:23px;}
+.banner-scroll-icon{width:80%;height:auto;float:left;position: absolute;bottom:15px;}
+.banner-scroll-icon>svg{display:block;margin:0 auto;}
+/*banner*/
+
+/*about*/
+.outline.about{margin-top:100px;}
+.about-title{width:100%;height:187px;float:left;background-image:url(../img/about-title-bg.png);background-repeat:no-repeat;}
+.about-title>div{width:auto;height:auto;float:left;padding-left:70px;}
+.about-title>div>div.word{width:auto;height:auto;float:left;font-size:50px;letter-spacing:0.145em;line-height:187px;}
+.about-title>div>div.decoration{width:4px;height:26px;float:left;margin-left:14px;position:relative;transform:translateY(330%);}
+.about-title>div>div.decoration>div{width:4px;height:4px;float:left;margin-bottom:7px;background-color:white;}
+.about-title>div>div.decoration>div:nth-last-child(1){margin-bottom:0px;}
+
+.about-main-bg{width:100%;height:856px;float:left;background-image:url(../img/about-main-bg.png);background-repeat:no-repeat;background-size:cover;}
+.about-main{width:650px;height:auto;float:left;margin-left:70px;}
+.about-main>div.block{width:100%;height:auto;float:left;margin-bottom:80px;}
+.about-main>div.block>div{width:calc(50% - 12.5px);height:auto;float:left;}
+.about-main>div.blovk>:nth-last-child(1){margin-bottom:0px;}
+
+
+.about-main-title{width:100%;height:auto;float:left;font-size:20px;color:white;margin-bottom:25px;}
+.about-main-word{width:100%;height:auto;float: left;font-size:16px;line-height:41px;color:rgba(255,255,255,0.7);}
+.about-main-icon{width:100%;height:auto;float:left;}
+.about-main-icon>svg{width:35px;margin-right:10px;float:left;}
+.about-main-icon>svg:nth-last-child(1){margin-right:0px;}
+/*about*/
+
+
+
+/*Works*/
+.about-title.works{width:100%;height:187px;float:left;background-image:url(../img/works-title-bg.png);background-repeat:no-repeat;}
+.works-main-block{width:100%;height:auto;float:left;}
+.works-main{width:100%;max-width:714px;height:auto;margin-bottom:50px;}
+.works-main>div.title{width:100%;height:auto;font-size:20px;color:white;margin-bottom:25px;float:left;}
+.works-main>div.title>span{font-weight:bold;margin-right:16px;}
+.works-main>div.title>a{color:white;}
+.works-main>div.sub{width:100%;height:auto;float:left;margin-bottom:6px;font-size:16px;color:white;}
+.works-main>div.word{width:100%;height:auto;float:left;margin-bottom:15px;font-size:14px;color:white;}
+.works-main>div.pic{width:100%;max-width:714px;height:100%;max-height:346px;float:left;}
+.works-main>div.pic>img{float:left;}
+.works-main>div.pic>div.cover{width:100%;height:100%;background-color: rgba(0,0,0,0.7);display:block;position:relative;}
+.works-main>div.pic>div.cover>div.icon{width:100%;height:64.57px;float:left;position: relative;transform: translateY(-50%);top:-50%;}
+.works-main>div.pic>div.cover>div.icon>svg{width:auto;height:auto;display:block;margin:0 auto;}
+.works-main>div.number-icon{width:auto;height:auto;font-size:500px;color:rgba(255,255,255,0.04);position: absolute;z-index:-1;font-weight:bold;}
+.works-main>div.number-icon.first{margin-left:600px;line-height:300px;}
+.works-main>div.number-icon.second{margin-left:-200px;}
+.works-main>div.number-icon.third{margin-left:650px;line-height:350px;}
+.works-main>div.number-icon.fourth{margin-left:-230px;line-height:360px;}
+/*Works*/
+
+
+/*contact*/
+.contact-main-bg{width:100%;height:790px;float:left;background-image:url(../img/contact-main-bg.png);background-repeat:no-repeat;background-size:cover;}
+.about-title.contact{width:100%;height:187px;float:left;background-image:url(../img/contact-title-bg.png);background-repeat:no-repeat;margin-top:50px;}
+.contact-main-word{width:100%;height:auto;float:left;font-size:14px;color:white;line-height:18.2px;margin-top:40px;margin-bottom:75px;}
+.contact-main-input-block{width:100%;height:51px;float:left;margin-top:78px;}
+.contact-main-input-block>div{width:100%;height:100%;float:left;margin-right:25px;width:147px;height:50px;}
+.contact-main-input-block > div.phone {width:182px;}
+.contact-main-input-block > div.email {width:248px;}
+
+.contact-main-input-block>div:nth-last-child(1){margin-right:0px;margin-left:70px;}
+
+.contact-main-input-block>div>div {width: 100%;height:auto;flost:left;color:white;font-size:14px;margin-bottom:15px;}
+.contact-main-input-block > div > input{width:calc(100% - 10px);height:23px;border:none;border-bottom:1px solid white;font-size:14px;color:white;padding-left:10px;background:none;}
+.contact-main-input-block > div > button {width:150px;height: 36px;float:left;border-radius:5px;margin:7px 0;background:white;text-align:center;line-height:36px;letter-spacing:1px;}
+/*contact*/
